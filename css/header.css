@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(45deg, rgb(238, 170, 238), rgb(123, 222, 230));
+    background: url('../img/cooking.jpg');
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@ header {
 
 .me-header-title {
     display: flex;
-    alight-items: center;
+    align-items: center;
     justify-self: center;
 }
 
