@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+
+    <!-- Связывание с CSS файлом -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/interesting.css">
     
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+
+    <!-- Font Awesome подключение -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
     <!-- Панель навигации -->
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Главная</a>
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-computer"></i>
+            Тренажёр
+        </a>
 
+        <!-- Кнопка бургер -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,19 +35,22 @@
         <div class="collapse navbar-collapse" id="navbarWithDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Теория</a>
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Тренажёр</a>
+                <a class="nav-link" href="#">Теория</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Задания и тесты</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Задания
+    О проекте
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">Автор</a></li>
+    <li><a class="dropdown-item" href="#">Цель</a></li>
+    <li><a class="dropdown-item" href="#">Разработка</a></li>
                 </ul>
             </li>
             <li class="nav-item">
@@ -42,7 +59,101 @@
             </ul>
         </div>
     </div>
-    </nav>
+    </nav> 
+
+    <!-- Заголовок сайта -->
+    <header>
+        <div class="container text-white pt-5 roboto-italic overlay">
+            <h1 class="me-header-title">Интерактивный сайт-тренажер по информатике</h1>
+            <h2 class="me-header-title"></h2>
+            <p class="me-text-header"></p>
+        </div>
+    </header>
+
+    <!-- Блок интересное -->
+   <section class="me-interesting">
+        <div class="container">
+            <div class="row">
+                <h1 class="me-interesting-title">Lorem</h1>
+                <h2 class="me-interesting-title">Ipsum</h2>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex">
+                            <div class="me-interesting-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div class="me-interesting-text">
+                                <h3>Lorem</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
               
     <!-- Bootstrap 5.3 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

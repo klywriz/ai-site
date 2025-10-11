@@ -1,0 +1,15 @@
+.me-interesting {
+    background-color: rgb(184, 224, 234);
+}
+
+.me-interesting-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-svg-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: rgb(0, 0, 0);
+}
