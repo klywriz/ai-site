@@ -1,7 +1,6 @@
-header.css
 header {
-    background: linear-gradient(45deg, orange 30%, violet);
-    background-image: url('../img/goods.jpg');
+    /* background-color: rgb(177, 177, 178); */
+    background-image: url('../img/cinema.jpg');
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
